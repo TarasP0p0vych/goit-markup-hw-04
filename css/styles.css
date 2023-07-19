@@ -43,6 +43,10 @@
   font-family: var(--primary-font);
   color: var(--primary-text-color);
   background-color: var(--white-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .link {
@@ -199,7 +203,7 @@ button,
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   font-style: normal;
-  transition: var(--main-transition);
+  transition: color var(--main-transition);
 }
 
 .header-address-item:not(:last-child) {
