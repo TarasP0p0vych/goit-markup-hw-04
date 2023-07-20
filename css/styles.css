@@ -226,6 +226,8 @@ button,
   max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
+  margin: 0 auto;
+
   background-color: var(--dark-navy-color);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-background-photo.jpg);
@@ -309,14 +311,11 @@ button,
 }
 .feature-item .icon-thumb {
   display: flex;
-  flex-shrink: 0;
 
   justify-content: center;
   align-items: center;
   width: 264px;
   height: 112px;
-  padding: 24px 100px;
-  flex-shrink: 0;
   background-color: var(--white-cornflower-color);
   border-radius: 4px;
   margin-bottom: 8px;
@@ -514,9 +513,6 @@ button,
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-}
-.row-item {
-  background-color: var(--white-color);
 }
 .row-item-link {
   display: block;
